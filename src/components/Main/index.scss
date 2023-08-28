@@ -1,0 +1,21 @@
+.Main {
+    height: 92.3vh;
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        margin-top: 145px;
+        margin-bottom: 100px;
+    }
+}

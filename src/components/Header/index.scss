@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.Header {
+    background-color: #0C70F2;
+    display: flex;
+    height: 74px;
+    gap: 39px;
+    padding-left: 61px;
+    align-items: flex-end;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+
+    &__one {
+        color: white;
+        padding: 5px 30px;
+    }
+
+    &__two {
+        color: #0C70F2;
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+        padding: 5px 30px;
+    }
+}

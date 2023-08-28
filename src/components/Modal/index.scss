@@ -1,0 +1,72 @@
+.Modal_Background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.2  );
+    z-index: 5;
+}
+
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 758px;
+    height: 436px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 10px;
+
+    h1 {
+        color: black !important;
+        font-family: Raleway !important;
+        font-size: 35px !important;
+        font-weight: 600 !important;
+        margin: 70px 0px 57px 0px !important;
+    }
+
+    p {
+        color: black;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 85px;
+    }
+
+    .nao {
+        width: 268.419px;
+        height: 77px;
+        border-radius: 10px;
+        background: #0c70f2;
+        border: 0;
+        cursor: pointer;
+
+        color: #fff;
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-right: 20px;
+    }
+
+    .sim {
+        width: 268.419px;
+        height: 77px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        background: #fff;
+        cursor: pointer;
+
+        color: #2d2d2d;
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
